@@ -1,16 +1,3 @@
-# Example Code Repository
-
-
-
-## Java Modules
-All Java modules require **Java 11** to compile and run.
-
-### Building with Gradle
-
-Each module should be an independent build and can be built by calling `./gradlew clean build` in the module directory. 
-
-All modules are listed in [build-all.sh](build-all.sh) to run in the CI pipeline.
-
-### Non-Java Modules
-
-Some folders contain non-Java projects. For those, refer to the README within the module folder.
+Hallo 
+das ist ein Test 
+Ich dreh gleich durch 
