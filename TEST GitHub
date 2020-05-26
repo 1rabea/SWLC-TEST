@@ -1,3 +1,19 @@
-Hallo 
-das ist ein Test 
-Ich dreh gleich durch 
+git config --global user.name "1Rabea"
+git config --global user.email "rabea_schuermann@web.de"
+git clone https://github.com/1Rabea/SWLC-TEST.git
+cd SWLC-TEST
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+cd existing_folder
+git init
+git remote add origin https://github.com/1Rabea/SWLC-TEST.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://github.com/1Rabea/SWLC-TEST.git
+git push -u origin --all
+git push -u origin --tags
